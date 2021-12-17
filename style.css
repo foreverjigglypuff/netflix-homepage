@@ -1,0 +1,140 @@
+body {
+    background-image: url(assests/netflix-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(black,hsla(340, 83%, 55%, 0),black), url("assets/bg-image.jpg"); */
+    /* background: radial-gradient(45.23% 45.23% at 50% 50%, rgba(0, 0, 0, 0.075) 0%, rgba(0, 0, 0, 0.5) 100%), url(assests/bg-image.jpg); */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(45.23% 45.23% at 50% 50%, rgb(0 0 0 / 35%) 0%, rgb(0 0 0 / 65%) 100%), url(assests/bg-image.jpg);
+}
+
+.btn1 {
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 7px 17px;
+    color: white;
+    display: inline-block;
+}
+
+
+.btn2 {
+    background-color: red;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 0 auto;
+    color: white;
+    cursor: pointer;
+    height: auto;
+
+}
+
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img {
+    background-image: linear-gradient(black, grey, black);
+}
+
+#container {
+    position: relative;
+}
+
+#img2 {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.text-field {
+    padding: 16px;
+    margin: 0;
+    height: 60px;
+    box-sizing: border-box;
+    min-width: 450px;
+
+
+}
+
+.placelabel {
+    top: 50%;
+    position: absolute;
+    left: 10px;
+}
+
+.input {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.email{
+display: flex;
+}
+.dropdown {
+    border: 1px solid #fff;
+    padding: 7px 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 32px 0 8px;
+
+    background-color: transparent;
+    color: white;
+
+}
+
+option {
+    color: #000;
+}
+
+
+/* .lang_signin{
+    justify-content: right;
+} */
+
+.logo {
+    width: 100%;
+    max-width: 200px;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.h2 {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+
+}
+
+.h3 {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    padding: 13.6px 0 0 0;
+}
